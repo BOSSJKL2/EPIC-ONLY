@@ -517,9 +517,9 @@ end)
 
 Section:NewButton("Music", "ButtonInfo", function()
     local music = Instance.new("Sound", game.Workspace)
-music.SoundId = "rbxassetid://6038276929"
-music.Volume = 99999999999999999999999999999999999999999
-music.Looped = true
+music.SoundId = "rbxassetid://9172672430"
+music.Volume = 999
+music.Looped = false
 music.PlayOnRemove = true
 music:Play()
 end)
