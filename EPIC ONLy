@@ -516,12 +516,13 @@ Section:NewButton("Rc7 Particles", "ButtonInfo", function()
 end)
 
 Section:NewButton("Music", "ButtonInfo", function()
-    local music = Instance.new("Sound", game.Workspace)
-music.SoundId = "rbxassetid://9172672430"
-music.Volume = 999
-music.Looped = false
-music.PlayOnRemove = true
-music:Play()
+    Spooky = Instance.new("Sound", game.Workspace)
+		Spooky.Name = "Spooky"
+		Spooky.SoundId = "rbxassetid://7153945201"
+		Spooky.Volume = 20
+                Spooky.Pitch = 0.5
+		Spooky.Looped = true
+		Spooky:Play()
 end)
 
 Section:NewButton("Extra Disco", "ButtonInfo", function()
