@@ -521,7 +521,6 @@ Section:NewButton("Music", "ButtonInfo", function()
 		Spooky.SoundId = "rbxassetid://7153945201"
 		Spooky.Volume = 20
                 Spooky.Pitch = 0.8
-		Spooky.Looped = false
 		Spooky:Play()
 end)
 
